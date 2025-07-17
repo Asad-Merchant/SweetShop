@@ -20,9 +20,9 @@ cd backend
 npm install
 ```
 2. Create .env file: \
-PORT=3000
-DB_URL=mongodb+srv://<your-production-db-url>
-TEST_DB_URL=mongodb://localhost:27017/sweet_test
+PORT=3000 \
+DB_URL=mongodb+srv://<your-production-db-url> \
+TEST_DB_URL=mongodb://localhost:27017/sweet_test \
 3. Start Backend Server:\
 npm start
 4. Run Unit/API Tests:\
@@ -36,8 +36,8 @@ npm test
 | POST   | `/api/v1/sweet/delete-sweet` | Delete sweet item                    |
 | POST   | `/api/v1/sweet/search`       | Search sweets by category / price    |
 
-\\
-##💻 Frontend Setup
+\
+## 💻 Frontend Setup
 ### 📦 Technologies Used
 -React.js
 -Fetch (for API Calls)
