@@ -2,7 +2,7 @@
 A full-stack Sweet Shop Management application for managing inventory and stock using **MERN Stack** (MongoDB, Express.js, React.js, Node.js).
 ---
 ## 📁 Project Structure
-/server => Node.js, Express.js, MongoDB (Mongoose)
+/server => Node.js, Express.js, MongoDB (Mongoose) \
 /client => React.js (Fetch, React Router)
 
 ## 🚀 Backend Setup
@@ -19,13 +19,13 @@ A full-stack Sweet Shop Management application for managing inventory and stock 
 cd backend
 npm install
 ```
-2. Create .env file
+2. Create .env file: \
 PORT=3000
 DB_URL=mongodb+srv://<your-production-db-url>
 TEST_DB_URL=mongodb://localhost:27017/sweet_test
-3. Start Backend Server:
+3. Start Backend Server:\
 npm start
-4. Run Unit/API Tests:
+4. Run Unit/API Tests:\
 npm test
 
 | Method | Endpoint                     | Description                          |
@@ -35,6 +35,8 @@ npm test
 | POST   | `/api/v1/sweet/add-quantity` | Add stock quantity to existing sweet |
 | POST   | `/api/v1/sweet/delete-sweet` | Delete sweet item                    |
 | POST   | `/api/v1/sweet/search`       | Search sweets by category / price    |
+
+\\
 ##💻 Frontend Setup
 ### 📦 Technologies Used
 -React.js
@@ -52,7 +54,7 @@ cd frontend
 ```bash
 npm install
 ```
-3. Create .env file:
+3. Create .env file: \
 const VITE_BACKEND_URL = 'http://localhost:3000';
 4. Start Frontend Development Server:
 ```bash
