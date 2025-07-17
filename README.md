@@ -36,7 +36,6 @@ npm test
 | POST   | `/api/v1/sweet/delete-sweet` | Delete sweet item                    |
 | POST   | `/api/v1/sweet/search`       | Search sweets by category / price    |
 
-\
 ## 💻 Frontend Setup
 ### 📦 Technologies Used
 -React.js
@@ -44,8 +43,8 @@ npm test
 -React Router (for navigation)
 -Tailwind CSS / Bootstrap (optional for styling)
 
-##📁 Folder: /client
-###⚙️ Installation & Running
+## 📁 Folder: /client
+### ⚙️ Installation & Running
 1. Navigate to frontend folder:
 ```bash
 cd frontend
